@@ -11,7 +11,7 @@ Vous pouvez utiliser la directive `v-model` pour créer une liaison de données 
 <p class="tip">`v-model` ne prend pas en compte la valeur initiale des attributs `value`, `checked` ou `selected` fournis par un champ. Elle traitera toujours les données de l'instance de vue comme la source de vérité. Vous devez déclarer la valeur initiale dans votre JavaScript, dans l'option `data` de votre composant.</p>
 
 `v-model` utilise en interne différentes propriétés et émetteurs d'évènement pour différents éléments de saisie :
-- Les éléments `text` et `textarea` utilisent la propriété `value` et évènement `input`;
+- Les éléments `text` et `textarea` utilisent la propriété `value` et l'évènement `input`;
 - Les éléments `checkboxes` et `radiobuttons` utilisent la propriété `checked` et l'évènement `change`;
 - Les éléments `select` utilisent `value` comme une prop et `change` comme un évènement.
 
